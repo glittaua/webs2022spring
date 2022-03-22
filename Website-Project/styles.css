@@ -6,12 +6,12 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float:  left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -26,6 +26,24 @@
   color: white;
 }
 
-h1, p {
+h1, p, h2 {
   background-color: #DDE0E3;    /* Light gray */
+  text-align: center;
+}
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 250px;
+  height: 250px;
 }
