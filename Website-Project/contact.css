@@ -26,6 +26,18 @@
   color: white;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  float: left;
+  width: 300px;
+  height: 200px;
+  background: #555;
+}
+
 h1, h2{
   background-color: #000000;    /* Light gray */
   text-align: center;
