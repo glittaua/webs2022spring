@@ -1,4 +1,5 @@
 # website can be found in Website Project
+# sources for images can be found in the image sources file and are all under fair use
 
 # Project 3: Website Portfolio
 
